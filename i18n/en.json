@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jeroen De Dauw"
+		]
+	},
+	"semantic-bundle-name": "Semantic Bundle",
+	"semantic-bundle-desc": "Bundle extension that installs and loads Semantic MediaWiki and associated extensions"
+}

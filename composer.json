@@ -1,0 +1,38 @@
+{
+	"name": "mediawiki/smw-bundle",
+	"type": "mediawiki-extension",
+	"description": "Bundle extension that installs and loads Semantic MediaWiki and associated extensions",
+	"keywords": [
+		"MediaWiki",
+		"Semantic MediaWiki",
+		"Result format",
+		"wiki"
+	],
+	"homepage": "https://github.com/TODO",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Jeroen De Dauw",
+			"email": "jeroendedauw@gmail.com",
+			"homepage": "https://www.entropywins.wtf"
+		}
+	],
+	"support": {
+		"source": "https://github.com/TODO"
+	},
+	"require": {
+		"php": ">=7.1",
+		"composer/installers": "^1.0.1",
+		"mediawiki/semantic-media-wiki": "~3.0",
+		"mediawiki/semantic-result-formats": "~3.0",
+		"mediawiki/maps": "~7.4.0",
+		"professional-wiki/modern-timeline": "~1.0",
+		"mediawiki/semantic-extra-special-properties": "~2.0",
+		"mediawiki/page-forms": "~4.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"SemanticBundle\\": "src/"
+		}
+	}
+}
