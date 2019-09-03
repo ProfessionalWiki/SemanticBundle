@@ -8,7 +8,7 @@ Bundle extension that installs and loads Semantic MediaWiki and associated exten
 This bundle is for everyone that wants to get the full Semantic MediaWiki experience without
 individually installing all extensions or figuring out what those extensions are in the first place.
 
-This version of Semantic Bundle requires PHP 7.1 or above.
+This version of Semantic Bundle requires PHP 7.1+ and MediaWiki 1.31+.
 
 ## Installation
 
