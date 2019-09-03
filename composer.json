@@ -42,7 +42,6 @@
 		"mediawiki/page-forms": "~4.5",
 		"mediawiki/title-icon": "~4.1"
 	},
-
 	"repositories": [
 		{
 			"type": "package",
@@ -53,7 +52,7 @@
 				"source": {
 					"type": "git",
 					"url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/TitleIcon.git",
-					"reference": "4.1"
+					"reference": "REL_33"
 				}
 			}
 		}
