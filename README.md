@@ -61,3 +61,15 @@ had installed them individually.
 
 If you want to only load some of the extensions, you can call `wfLoadExtensions` yourself instead
 of including `SemanticBundle.php`.
+
+## Update/version policy
+
+Like this included extensions, Semantic Bundle itself follows [semantic versioning](https://semver.org/).
+This means that we avoid breaking changes in all but our major versions.
+
+In other words, if you install version `~42.0` of Semantic Bundle, you can run `composer update` at any
+later time without worrying a breaking change will be included. No extensions will be removed, no extensions
+will be added and no extensions will be upgraded to a new version that itself has breaking changes.
+
+To get the latest set of extensions included by Semantic Bundle, make sure your "composer.local.json"
+file contains the latest version of Semantic Bundle.
