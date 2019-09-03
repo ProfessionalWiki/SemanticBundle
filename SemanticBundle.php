@@ -7,6 +7,7 @@ wfLoadExtensions( [
 	'SemanticResultFormats',
 	'Maps',
 	'ModernTimeline',
+	'Mermaid',
 
 	// General purpose
 	'SemanticExtraSpecialProperties',
@@ -20,7 +21,6 @@ wfLoadExtensions( [
 	'SemanticBreadcrumbLinks',
 
 	'PageForms',
-	'TitleIcon',
 ] );
 
 $GLOBALS['wgHooks']['SoftwareInfo'][] = function( array &$software ) {
