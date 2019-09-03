@@ -15,7 +15,7 @@ This version of Semantic Bundle requires PHP 7.1 or above.
 Semantic Bundle is installed using [Composer](https://getcomposer.org) with
 [MediaWiki's built-in support for Composer](https://www.mediawiki.org/wiki/Composer).
 
-### Step 1
+### Step 1/5: composer.local.json
 
 Change to the base directory of your MediaWiki installation. If you do not have a "composer.local.json" file yet,
 create one and add the following content to it:
@@ -35,22 +35,37 @@ section in your file:
 
 Remember to add a comma to the end of the preceding line in this section.
 
-### Step 2
+### Step 2/5: composer update
 
 Run the following command in your shell:
 
     composer update --no-dev
 
-### Step 3
+### Step 3/5: require SemanticBundle.php
 
-Add the following lines to the end of your "LocalSettings.php" file:
+Add the following line to the end of your "LocalSettings.php" file:
 
     require_once __DIR__ . '/extensions/SemanticBundle/SemanticBundle.php';
+    
+### Step 4/5: enable Semantic MediaWiki
+
+Add the following line to the end of your "LocalSettings.php" file:
+
     enableSemantics( 'example.org' );
 
 Update the `enableSemantics` line with your domain name.
 For more information see the
 [enableSemantics documentation](https://www.semantic-mediawiki.org/wiki/Help:EnableSemantics).
+
+### Step 5/5: run update.php
+
+Run the update.php script from the base directory1 of your MediaWiki installation: 
+
+    php maintenance/update.php
+
+### Verify everything went alright
+
+Check the "Special:Version" page on your wiki. If it lists Semantic MediaWiki, installation was successful. 
 
 ## How this works
 
