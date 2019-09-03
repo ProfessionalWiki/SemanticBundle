@@ -43,7 +43,7 @@ Add the following lines to the end of your "LocalSettings.php" file:
     require_once __DIR__ . '/extensions/SemanticBundle/SemanticBundle.php';
     enableSemantics( 'example.org' );
 
-You will need to update the `enableSemantics` line with your domain name.
+Update the `enableSemantics` line with your domain name.
 For more information see the
 [enableSemantics documentation](https://www.semantic-mediawiki.org/wiki/Help:EnableSemantics)
 
