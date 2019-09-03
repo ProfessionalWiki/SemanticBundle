@@ -1,7 +1,13 @@
 <?php
 
 wfLoadExtensions( [
-	'Maps',
 	'SemanticMediaWiki',
-	'ModernTimeline'
+
+	'SemanticResultFormats',
+	'Maps',
+	'ModernTimeline',
+
+	'SemanticExtraSpecialProperties',
+
+	'PageForms',
 ] );
