@@ -29,6 +29,7 @@
 		"mediawiki/semantic-result-formats": "~3.0",
 		"mediawiki/maps": "~7.4.0",
 		"professional-wiki/modern-timeline": "~1.0",
+		"mediawiki/mermaid": "~2.1",
 
 		"mediawiki/semantic-extra-special-properties": "~2.0",
 		"mediawiki/semantic-compound-queries": "~2.1",
@@ -40,21 +41,5 @@
 		"mediawiki/semantic-breadcrumb-links": "~2.0",
 
 		"mediawiki/page-forms": "~4.5",
-		"mediawiki/title-icon": "~4.1"
-	},
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "mediawiki/title-icon",
-				"type": "mediawiki-extension",
-				"version": "4.1",
-				"source": {
-					"type": "git",
-					"url": "https://github.com/wikimedia/mediawiki-extensions-TitleIcon",
-					"reference": "4.1"
-				}
-			}
-		}
-	]
+	}
 }
