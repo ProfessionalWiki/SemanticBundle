@@ -29,10 +29,13 @@
 		"mediawiki/semantic-result-formats": "~3.0",
 		"mediawiki/maps": "~7.4.0",
 		"professional-wiki/modern-timeline": "~1.0",
+		"phpoffice/phpspreadsheet": "~1.9",
+		"phpoffice/phpexcel": "~1.8",
 
 		"mediawiki/semantic-extra-special-properties": "~2.0",
 		"mediawiki/semantic-compound-queries": "~2.1",
 
+		"mediawiki/semantic-interlanguage-links": "~1.5",
 		"mediawiki/semantic-cite": "~2.0",
 		"mediawiki/semantic-glossary": "~3.0",
 		"mediawiki/semantic-meta-tags": "~2.0",
