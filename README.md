@@ -36,7 +36,7 @@ Remember to add a comma to the end of the preceding line in this section.
 
 Run the following command in your shell:
 
-    php composer.phar update --no-dev
+    composer update --no-dev
 
 ### Step 3
 
