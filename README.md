@@ -45,7 +45,7 @@ Add the following lines to the end of your "LocalSettings.php" file:
 
 Update the `enableSemantics` line with your domain name.
 For more information see the
-[enableSemantics documentation](https://www.semantic-mediawiki.org/wiki/Help:EnableSemantics)
+[enableSemantics documentation](https://www.semantic-mediawiki.org/wiki/Help:EnableSemantics).
 
 ## How this works
 
