@@ -14,7 +14,6 @@ wfLoadExtensions( [
 	'SemanticCompoundQueries',
 
 	// Domain specific
-	'SemanticInterlanguageLinks',
 	'SemanticCite',
 	'SemanticGlossary',
 	'SemanticMetaTags',
