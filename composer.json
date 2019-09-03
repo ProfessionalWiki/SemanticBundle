@@ -29,10 +29,5 @@
 		"professional-wiki/modern-timeline": "~1.0",
 		"mediawiki/semantic-extra-special-properties": "~2.0",
 		"mediawiki/page-forms": "~4.5"
-	},
-	"autoload": {
-		"psr-4": {
-			"SemanticBundle\\": "src/"
-		}
 	}
 }
