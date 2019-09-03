@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/smw-bundle",
+	"name": "mediawiki/semantic-bundle",
 	"type": "mediawiki-extension",
 	"description": "Bundle extension that installs and loads Semantic MediaWiki and associated extensions",
 	"keywords": [
