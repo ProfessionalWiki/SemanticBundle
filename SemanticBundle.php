@@ -20,6 +20,7 @@ wfLoadExtensions( [
 	'SemanticBreadcrumbLinks',
 
 	'PageForms',
+	'TitleIcon',
 ] );
 
 $GLOBALS['wgHooks']['SoftwareInfo'][] = function( array &$software ) {
