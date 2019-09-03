@@ -3,11 +3,20 @@
 wfLoadExtensions( [
 	'SemanticMediaWiki',
 
+	// Result formats
 	'SemanticResultFormats',
 	'Maps',
 	'ModernTimeline',
 
+	// General purpose
 	'SemanticExtraSpecialProperties',
+	'SemanticCompoundQueries',
+
+	// Domain specific
+	'SemanticCite',
+	'SemanticGlossary',
+	'SemanticMetaTags',
+	'SemanticBreadcrumbLinks',
 
 	'PageForms',
 ] );

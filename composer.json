@@ -23,11 +23,21 @@
 	"require": {
 		"php": ">=7.1",
 		"composer/installers": "^1.0.1",
+
 		"mediawiki/semantic-media-wiki": "~3.0.0",
+
 		"mediawiki/semantic-result-formats": "~3.0",
 		"mediawiki/maps": "~7.4.0",
 		"professional-wiki/modern-timeline": "~1.0",
+
 		"mediawiki/semantic-extra-special-properties": "~2.0",
+		"mediawiki/semantic-compound-queries": "~2.1",
+
+		"mediawiki/semantic-cite": "~2.0",
+		"mediawiki/semantic-glossary": "~3.0",
+		"mediawiki/semantic-meta-tags": "~2.0",
+		"mediawiki/semantic-breadcrumb-links": "~2.0",
+
 		"mediawiki/page-forms": "~4.5"
 	}
 }
