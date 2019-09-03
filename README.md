@@ -1,5 +1,8 @@
 # Semantic Bundle
 
+[![Latest Stable Version](https://poser.pugx.org/mediawiki/semantic-bundle/version.png)](https://packagist.org/packages/mediawiki/semantic-bundle)
+[![Download count](https://poser.pugx.org/mediawiki/semantic-bundle/d/total.png)](https://packagist.org/packages/mediawiki/semantic-bundle)
+
 Bundle extension that installs and loads Semantic MediaWiki and associated extensions.
 
 This bundle is for everyone that wants to get the full Semantic MediaWiki experience without
