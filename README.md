@@ -59,7 +59,7 @@ For more information see the
 
 ### Step 5/5: run update.php
 
-Run the update.php script from the base directory1 of your MediaWiki installation: 
+Run the update.php script from the base directory of your MediaWiki installation: 
 
     php maintenance/update.php
 
