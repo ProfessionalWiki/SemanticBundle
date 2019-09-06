@@ -18,10 +18,11 @@ wfLoadExtensions( [
 	'SemanticGlossary',
 	'SemanticMetaTags',
 	'SemanticBreadcrumbLinks',
+	'SemanticInterlanguageLinks',
 
 	'PageForms',
 ] );
 
 $GLOBALS['wgHooks']['SoftwareInfo'][] = function( array &$software ) {
-	$software['[https://github.com/SemanticMediaWiki/SemanticBundle Semantic Bundle]'] = '1.0.0';
+	$software['[https://github.com/SemanticMediaWiki/SemanticBundle Semantic Bundle]'] = '1.1.0-alpha';
 };
