@@ -10,6 +10,22 @@ individually installing all extensions or figuring out what those extensions are
 
 This version of Semantic Bundle requires PHP 7.1+ and MediaWiki 1.31+.
 
+## Bundled extensions
+
+* **Semantic MediaWiki** – Allows to store and query data annotated to pages 
+* **Semantic Breadcrumb Links** – Allows to build breadcrumb links using semantic annotations
+* **Semantic Cite** – Allows to manage citation resources using semantic annotations
+* **Semantic Compound Queries** – Provides a parser function that displays multiple semantic queries at the same time
+* **Semantic Extra Special Properties** – Adds extra special properties to all pages
+* **Semantic Glossary** – Allows to define terms as well as abbreviations and manage them with semantic annotations
+* **Semantic Interlanguage Links** – Allows to create and manage interlanguage links with semantic annotations
+* **Semantic Meta Tags** – Allows to extend the meta elements in the HTML header of a page with content generated from semantic annotations
+* **Semantic Result Formats** – Provides additional formats for semantic queries
+* **Maps** – Allows embedding of dynamic maps, geocoding and geospatial operations
+* **Mermaid** – Provides a parser function to generate diagrams and flowcharts with the help of the mermaid script language
+* **Modern Timeline** – Provides a modern timeline visualization for Semantic MediaWiki as a result format
+* **Page Forms** – Allows to create and use forms for adding and editing pages with and without semantic data
+
 ## Installation
 
 Semantic Bundle is installed using [Composer](https://getcomposer.org) with
