@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jeroen De Dauw"
+		]
+	},
+	"semantic-bundle-name": "{{Name}}"
+}
