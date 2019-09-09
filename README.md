@@ -39,7 +39,7 @@ create one and add the following content to it:
 ```
 {
 	"require": {
-		"mediawiki/semantic-bundle": "~1.0"
+		"mediawiki/semantic-bundle": "~2.0"
 	}
 }
 ```
@@ -47,7 +47,7 @@ create one and add the following content to it:
 If you already have a "composer.local.json" file add the following line to the end of the "require"
 section in your file:
 
-    "mediawiki/semantic-bundle": "~1.0"
+    "mediawiki/semantic-bundle": "~2.0"
 
 Remember to add a comma to the end of the preceding line in this section.
 
