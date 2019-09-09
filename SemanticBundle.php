@@ -18,6 +18,7 @@ wfLoadExtensions( [
 	'SemanticGlossary',
 	'SemanticMetaTags',
 	'SemanticBreadcrumbLinks',
+	'SemanticInterlanguageLinks',
 
 	'PageForms',
 ] );
