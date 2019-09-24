@@ -39,7 +39,7 @@ create one and add the following content to it:
 ```
 {
 	"require": {
-		"mediawiki/semantic-bundle": "~2.0"
+		"mediawiki/semantic-bundle": "~3.0"
 	}
 }
 ```
@@ -47,7 +47,7 @@ create one and add the following content to it:
 If you already have a "composer.local.json" file add the following line to the end of the "require"
 section in your file:
 
-    "mediawiki/semantic-bundle": "~2.0"
+    "mediawiki/semantic-bundle": "~3.0"
 
 Remember to add a comma to the end of the preceding line in this section.
 
@@ -107,3 +107,13 @@ will be added and no extensions will be upgraded to a new version that itself ha
 
 To get the latest set of extensions included by Semantic Bundle, make sure your "composer.local.json"
 file contains the latest version of Semantic Bundle.
+
+## Version history
+
+### Semantic Bundle 3.0
+
+* Upgraded Semantic MediaWiki from ~3.0.0 to ~3.1.0
+
+### Semantic Bundle 2.0
+
+* Upgraded Semantic Interlanguage Links from ~1.5 to ~2.0
