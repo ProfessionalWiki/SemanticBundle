@@ -55,7 +55,7 @@ Remember to add a comma to the end of the preceding line in this section.
 
 Run the following command in your shell:
 
-    composer update --no-dev
+    composer update --no-dev -o
 
 ### Step 3/5: require SemanticBundle.php
 
