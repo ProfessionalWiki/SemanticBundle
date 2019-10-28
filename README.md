@@ -56,14 +56,8 @@ Remember to add a comma to the end of the preceding line in this section.
 Run the following command in your shell:
 
     composer update --no-dev -o
-
-### Step 3/5: require SemanticBundle.php
-
-Add the following line to the end of your "LocalSettings.php" file:
-
-    require_once __DIR__ . '/extensions/SemanticBundle/SemanticBundle.php';
-    
-### Step 4/5: enable Semantic MediaWiki
+  
+### Step 3/5: enable Semantic MediaWiki
 
 Add the following line to the end of your "LocalSettings.php" file:
 
@@ -72,6 +66,12 @@ Add the following line to the end of your "LocalSettings.php" file:
 Update the `enableSemantics` line with your domain name.
 For more information see the
 [enableSemantics documentation](https://www.semantic-mediawiki.org/wiki/Help:EnableSemantics).
+
+### Step 4/5: require SemanticBundle.php
+
+Add the following line to the end of your "LocalSettings.php" file after the line added in step 3/5:
+
+    require_once __DIR__ . '/extensions/SemanticBundle/SemanticBundle.php';
 
 ### Step 5/5: run update.php
 

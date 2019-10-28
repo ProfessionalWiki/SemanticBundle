@@ -1,7 +1,6 @@
 <?php
 
 wfLoadExtensions( [
-	'SemanticMediaWiki',
 
 	// Result formats
 	'SemanticResultFormats',
@@ -20,6 +19,7 @@ wfLoadExtensions( [
 	'SemanticBreadcrumbLinks',
 	'SemanticInterlanguageLinks',
 
+	// Other
 	'PageForms',
 ] );
 
