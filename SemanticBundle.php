@@ -27,7 +27,7 @@ $GLOBALS['wgExtensionCredits']['semantic'][] = [
 	'path' => __FILE__,
 	'namemsg' => 'semantic-bundle-name',
 	'name' => 'AA Semantic Bundle',
-	'version' => '3.0.0',
+	'version' => '3.0.1',
 	'author' => [
 		'[https://www.entropywins.wtf/mediawiki Jeroen De Dauw]'
 	],
