@@ -110,6 +110,10 @@ file contains the latest version of Semantic Bundle.
 
 ## Version history
 
+### Semantic Bundle 3.0.1
+
+* Fixed double loading of Semantic MediaWiki that happened in some cases
+
 ### Semantic Bundle 3.0
 
 * Upgraded Semantic MediaWiki from ~3.0.0 to ~3.1.0
