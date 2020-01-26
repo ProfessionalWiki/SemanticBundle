@@ -110,6 +110,10 @@ file contains the latest version of Semantic Bundle.
 
 ## Version history
 
+### Semantic Bundle 3.1.0 (2020-01-26)
+
+* Upgraded Maps from ~7.4.0 to ~7.15
+
 ### Semantic Bundle 3.0.1
 
 * Fixed double loading of Semantic MediaWiki that happened in some cases
