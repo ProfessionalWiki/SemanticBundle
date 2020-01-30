@@ -31,51 +31,29 @@ This version of Semantic Bundle requires PHP 7.1+ and MediaWiki 1.31+.
 Semantic Bundle is installed using [Composer](https://getcomposer.org) with
 [MediaWiki's built-in support for Composer](https://www.mediawiki.org/wiki/Composer).
 
-### Step 1/5: composer.local.json
+### Step 1/3: composer update
 
-Change to the base directory of your MediaWiki installation. If you do not have a "composer.local.json" file yet,
-create one and add the following content to it:
+Change to the base directory of your MediaWiki installation and execute these two commands:
 
-```
-{
-	"require": {
-		"mediawiki/semantic-bundle": "~3.0"
-	}
-}
-```
-
-If you already have a "composer.local.json" file add the following line to the end of the "require"
-section in your file:
-
-    "mediawiki/semantic-bundle": "~3.0"
-
-Remember to add a comma to the end of the preceding line in this section.
-
-### Step 2/5: composer update
-
-Run the following command in your shell:
-
-    composer update --no-dev -o
+    COMPOSER=composer.local.json composer require --no-update mediawiki/semantic-bundle:~3.0
+    composer update mediawiki/semantic-bundle --no-dev -o
   
-### Step 3/5: enable Semantic MediaWiki
+### Step 2/3: modify LocalSettings.php
 
-Add the following line to the end of your "LocalSettings.php" file:
+Add the following lines to the end of your
+["LocalSettings.php" file](https://www.mediawiki.org/wiki/Manual:LocalSettings.php):
 
     enableSemantics( 'example.org' );
+    require_once __DIR__ . '/extensions/SemanticBundle/SemanticBundle.php';
 
 Update the `enableSemantics` line with your domain name.
 For more information see the
 [enableSemantics documentation](https://www.semantic-mediawiki.org/wiki/Help:EnableSemantics).
 
-### Step 4/5: require SemanticBundle.php
+### Step 3/3: run update.php
 
-Add the following line to the end of your "LocalSettings.php" file after the line added in step 3/5:
-
-    require_once __DIR__ . '/extensions/SemanticBundle/SemanticBundle.php';
-
-### Step 5/5: run update.php
-
-Run the update.php script from the base directory of your MediaWiki installation: 
+Run the [update.php script](https://www.mediawiki.org/wiki/Manual:Update.php)
+from the base directory of your MediaWiki installation: 
 
     php maintenance/update.php
 
