@@ -29,7 +29,8 @@ $GLOBALS['wgExtensionCredits']['semantic'][] = [
 	'name' => 'AA Semantic Bundle',
 	'version' => '3.1.0',
 	'author' => [
-		'[https://www.entropywins.wtf/mediawiki Jeroen De Dauw]'
+		'[https://www.entropywins.wtf/mediawiki Jeroen De Dauw]',
+		'[https://professional.wiki/ Professional.Wiki]'
 	],
 	'url' => 'https://github.com/SemanticMediaWiki/SemanticBundle',
 	'description' => 'Bundle that installs and loads Semantic MediaWiki and associated extensions.',
