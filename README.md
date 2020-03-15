@@ -36,11 +36,12 @@ Semantic Bundle is installed using [Composer](https://getcomposer.org) with
 Change to the base directory of your MediaWiki installation and execute these two commands:
 
     COMPOSER=composer.local.json composer require --no-update mediawiki/semantic-bundle:~3.0
+
     composer update mediawiki/semantic-bundle --no-dev -o
   
 ### Step 2/3: modify LocalSettings.php
 
-Add the following lines to the end of your
+Add the following two lines to the end of your
 ["LocalSettings.php" file](https://www.mediawiki.org/wiki/Manual:LocalSettings.php):
 
     enableSemantics( 'example.org' );
@@ -88,18 +89,26 @@ file contains the latest version of Semantic Bundle.
 
 ## Version history
 
+### Semantic Bundle 3.1.1 (2020-03-15)
+
+* Fixed automatic upgreade of Mermaid to 2.0.x
+
 ### Semantic Bundle 3.1.0 (2020-01-26)
 
 * Upgraded Maps from ~7.4.0 to ~7.15
 
-### Semantic Bundle 3.0.1
+### Semantic Bundle 3.0.1 (2019-10-29)
 
 * Fixed double loading of Semantic MediaWiki that happened in some cases
 
-### Semantic Bundle 3.0
+### Semantic Bundle 3.0.0 (2019-09-24)
 
 * Upgraded Semantic MediaWiki from ~3.0.0 to ~3.1.0
 
-### Semantic Bundle 2.0
+### Semantic Bundle 2.0.0 (2019-09-09)
 
 * Upgraded Semantic Interlanguage Links from ~1.5 to ~2.0
+
+### Semantic Bundle 1.0.0 (2019-09-05)
+
+* Initial release for MediaWiki 1.31.x and Semantic MediaWiki 3.0.x
