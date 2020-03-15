@@ -91,7 +91,7 @@ file contains the latest version of Semantic Bundle.
 
 ### Semantic Bundle 3.1.1 (2020-03-15)
 
-* Fixed automatic upgreade of Mermaid to 2.0.x
+* Fixed compatibility with MediaWiki 1.31 (by preventing installation of Mermaid newer than 2.0.x)
 
 ### Semantic Bundle 3.1.0 (2020-01-26)
 
