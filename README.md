@@ -90,6 +90,10 @@ file contains the latest version of Semantic Bundle.
 
 ## Version history
 
+### Semantic Bundle 3.1.2 (2020-03-17)
+
+* Fixed defect in 3.1.1 that made Composer ignore that release
+
 ### Semantic Bundle 3.1.1 (2020-03-15)
 
 * Fixed compatibility with MediaWiki 1.31 (by preventing installation of Mermaid newer than 2.0.x)
