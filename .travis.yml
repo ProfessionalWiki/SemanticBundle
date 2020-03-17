@@ -1,0 +1,9 @@
+language: php
+
+php: 7.4
+
+sudo: false
+
+install: travis_retry composer install --prefer-source
+
+script: composer validate --no-interaction
