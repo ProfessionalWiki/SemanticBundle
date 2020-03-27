@@ -13,19 +13,19 @@ This version of Semantic Bundle requires PHP 7.1+ and MediaWiki 1.31+.
 
 ## Bundled extensions
 
-* **Semantic MediaWiki** – Allows to store and query data annotated to pages 
-* **Semantic Breadcrumb Links** – Allows to build breadcrumb links using semantic annotations
-* **Semantic Cite** – Allows to manage citation resources using semantic annotations
-* **Semantic Compound Queries** – Provides a parser function that displays multiple semantic queries at the same time
-* **Semantic Extra Special Properties** – Adds extra special properties to all pages
-* **Semantic Glossary** – Allows to define terms as well as abbreviations and manage them with semantic annotations
-* **Semantic Interlanguage Links** – Allows to create and manage interlanguage links with semantic annotations
-* **Semantic Meta Tags** – Allows to extend the meta elements in the HTML header of a page with content generated from semantic annotations
-* **Semantic Result Formats** – Provides additional formats for semantic queries
-* **Maps** – Allows embedding of dynamic maps, geocoding and geospatial operations
-* **Mermaid** – Provides a parser function to generate diagrams and flowcharts with the help of the mermaid script language
-* **Modern Timeline** – Provides a modern timeline visualization for Semantic MediaWiki as a result format
-* **Page Forms** – Allows to create and use forms for adding and editing pages with and without semantic data
+* **[Semantic MediaWiki](https://www.mediawiki.org/wiki/Extension:Semantic_MediaWiki)** – Allows to store and query data annotated to pages 
+* **[Semantic Breadcrumb Links](https://www.mediawiki.org/wiki/Extension:Semantic_Breadcrumb_Links)** – Allows to build breadcrumb links using semantic annotations
+* **[Semantic Cite](https://www.mediawiki.org/wiki/Extension:Semantic_Cite)** – Allows to manage citation resources using semantic annotations
+* **[Semantic Compound Queries](https://www.mediawiki.org/wiki/Extension:Semantic_Compound_Queries)** – Provides a parser function that displays multiple semantic queries at the same time
+* **[Semantic Extra Special Properties](https://www.mediawiki.org/wiki/Extension:Semantic_Extra_Special_Properties)** – Adds extra special properties to all pages
+* **[Semantic Glossary](https://www.mediawiki.org/wiki/Extension:Semantic_Glossary)** – Allows to define terms as well as abbreviations and manage them with semantic annotations
+* **[Semantic Interlanguage Links](https://www.mediawiki.org/wiki/Extension:Semantic_Interlanguage_Links)** – Allows to create and manage interlanguage links with semantic annotations
+* **[Semantic Meta Tags](https://www.mediawiki.org/wiki/Extension:Semantic_Meta_Tags)** – Allows to extend the meta elements in the HTML header of a page with content generated from semantic annotations
+* **[Semantic Result Formats](https://www.mediawiki.org/wiki/Extension:Semantic_Result_Formats)** – Provides additional formats for semantic queries
+* **[Maps](https://www.mediawiki.org/wiki/Extension:Maps)** – Allows embedding of dynamic maps, geocoding and geospatial operations
+* **[Mermaid](https://www.mediawiki.org/wiki/Extension:Mermaid)** – Provides a parser function to generate diagrams and flowcharts with the help of the mermaid script language
+* **[Modern Timeline](https://www.mediawiki.org/wiki/Extension:Modern_Timeline)** – Provides a modern timeline visualization for Semantic MediaWiki as a result format
+* **[Page Forms](https://www.mediawiki.org/wiki/Extension:Page_Forms)** – Allows to create and use forms for adding and editing pages with and without semantic data
 
 ## Installation
 
