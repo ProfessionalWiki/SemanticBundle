@@ -1,6 +1,6 @@
 # Semantic Bundle
 
-[![Build Status](https://travis-ci.org/SemanticMediaWiki/SemanticBundle.svg?branch=master)](https://travis-ci.org/SemanticMediaWiki/SemanticBundle)
+[![Build Status](https://travis-ci.org/ProfessionalWiki/SemanticBundle.svg?branch=master)](https://travis-ci.org/ProfessionalWiki/SemanticBundle)
 [![Latest Stable Version](https://poser.pugx.org/mediawiki/semantic-bundle/version.png)](https://packagist.org/packages/mediawiki/semantic-bundle)
 [![Download count](https://poser.pugx.org/mediawiki/semantic-bundle/d/total.png)](https://packagist.org/packages/mediawiki/semantic-bundle)
 
