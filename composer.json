@@ -44,7 +44,7 @@
 		"php": ">=7.1",
 		"composer/installers": "^1.0.1",
 
-		"mediawiki/semantic-media-wiki": "~3.1.0",
+		"mediawiki/semantic-media-wiki": "~3.2.0",
 
 		"mediawiki/semantic-result-formats": "~3.0",
 		"mediawiki/maps": "~7.15",
