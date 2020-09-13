@@ -90,6 +90,10 @@ file contains the latest version of Semantic Bundle.
 
 ## Version history
 
+### Semantic Bundle 3.2.0 (2020-09-13)
+
+* Upgraded Semantic MediaWiki from ~3.1.0 to ~3.2.0
+
 ### Semantic Bundle 3.1.2 (2020-03-17)
 
 * Fixed defect in 3.1.1 that made Composer ignore that release
