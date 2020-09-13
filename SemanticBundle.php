@@ -19,7 +19,7 @@ wfLoadExtensions( [
 	'SemanticBreadcrumbLinks',
 	'SemanticInterlanguageLinks',
 
-	// Other
+	// UI / UX
 	'PageForms',
 ] );
 
