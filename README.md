@@ -11,6 +11,8 @@ individually installing all extensions or figuring out what those extensions are
 
 This version of Semantic Bundle requires PHP 7.1+ and MediaWiki 1.31+.
 
+Semantic Bundle is maintained by [Professional.Wiki]. Contact us for [MediaWiki development], [managed wiki hosting] or [professional MediaWiki support].
+
 ## Bundled extensions
 
 * **[Semantic MediaWiki](https://www.mediawiki.org/wiki/Extension:Semantic_MediaWiki)** – Allows to store and query data annotated to pages 
@@ -62,6 +64,8 @@ from the base directory of your MediaWiki installation:
 ### Verify everything went alright
 
 Check the "Special:Version" page on your wiki. If it lists Semantic MediaWiki, installation was successful. 
+
+Finally, please consider [sponsoring the project].
 
 ## How this works
 
@@ -121,3 +125,9 @@ file contains the latest version of Semantic Bundle.
 ### Semantic Bundle 1.0.0 (2019-09-05)
 
 * Initial release for MediaWiki 1.31.x and Semantic MediaWiki 3.0.x
+
+[Professional.Wiki]: https://professional.wiki
+[sponsoring the project]: https://github.com/sponsors/JeroenDeDauw
+[MediaWiki development]: https://professional.wiki/en/mediawiki-development
+[managed wiki hosting]: https://professional.wiki/en/hosting
+[professional MediaWiki support]: https://professional.wiki/en/support
