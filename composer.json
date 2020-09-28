@@ -57,7 +57,7 @@
 		"mediawiki/semantic-interlanguage-links": "~2.0",
 		"mediawiki/semantic-cite": "~2.1",
 		"mediawiki/semantic-glossary": "~3.0",
-		"mediawiki/semantic-meta-tags": "~2.0",
+		"mediawiki/semantic-meta-tags": "~3.0",
 		"mediawiki/semantic-breadcrumb-links": "~2.0",
 
 		"mediawiki/page-forms": "~4.6"
