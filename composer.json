@@ -23,7 +23,7 @@
 		"breadcrumb links",
 		"interlanguage links"
 	],
-	"homepage": "https://github.com/SemanticMediaWiki/SemanticBundle",
+	"homepage": "https://github.com/ProfessionalWiki/SemanticBundle",
 	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
@@ -38,7 +38,7 @@
 		}
 	],
 	"support": {
-		"source": "https://github.com/SemanticMediaWiki/SemanticBundle"
+		"source": "https://github.com/ProfessionalWiki/SemanticBundle"
 	},
 	"require": {
 		"php": ">=7.1",
