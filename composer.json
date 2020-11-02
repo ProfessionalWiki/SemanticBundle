@@ -47,7 +47,7 @@
 		"mediawiki/semantic-media-wiki": "~3.2.0",
 
 		"mediawiki/semantic-result-formats": "~3.0",
-		"mediawiki/maps": "~7.15",
+		"mediawiki/maps": "~7.20",
 		"professional-wiki/modern-timeline": "~1.0",
 		"mediawiki/mermaid": "~2.1.1",
 
@@ -56,7 +56,6 @@
 
 		"mediawiki/semantic-interlanguage-links": "~2.0",
 		"mediawiki/semantic-cite": "~2.1",
-		"mediawiki/semantic-glossary": "~3.0",
 		"mediawiki/semantic-meta-tags": "~3.0",
 		"mediawiki/semantic-breadcrumb-links": "~2.0",
 
