@@ -20,7 +20,6 @@ Semantic Bundle is maintained by [Professional.Wiki]. Contact us for [MediaWiki 
 * **[Semantic Cite](https://www.mediawiki.org/wiki/Extension:Semantic_Cite)** – Allows to manage citation resources using semantic annotations
 * **[Semantic Compound Queries](https://www.mediawiki.org/wiki/Extension:Semantic_Compound_Queries)** – Provides a parser function that displays multiple semantic queries at the same time
 * **[Semantic Extra Special Properties](https://www.mediawiki.org/wiki/Extension:Semantic_Extra_Special_Properties)** – Adds extra special properties to all pages
-* **[Semantic Glossary](https://www.mediawiki.org/wiki/Extension:Semantic_Glossary)** – Allows to define terms as well as abbreviations and manage them with semantic annotations
 * **[Semantic Interlanguage Links](https://www.mediawiki.org/wiki/Extension:Semantic_Interlanguage_Links)** – Allows to create and manage interlanguage links with semantic annotations
 * **[Semantic Meta Tags](https://www.mediawiki.org/wiki/Extension:Semantic_Meta_Tags)** – Allows to extend the meta elements in the HTML header of a page with content generated from semantic annotations
 * **[Semantic Result Formats](https://www.mediawiki.org/wiki/Extension:Semantic_Result_Formats)** – Provides additional formats for semantic queries
@@ -93,6 +92,11 @@ To get the latest set of extensions included by Semantic Bundle, make sure your 
 file contains the latest version of Semantic Bundle.
 
 ## Version history
+
+### Semantic Bundle 4.0.0 (2020-11-02)
+
+* Removed Semantic Glossary
+* Upgraded Maps from ~7.15 to ~7.20
 
 ### Semantic Bundle 3.2.0 (2020-09-13)
 
