@@ -96,7 +96,6 @@ file contains the latest version of Semantic Bundle.
 ### Semantic Bundle 4.0.0 (2020-11-02)
 
 * Removed Semantic Glossary
-* Upgraded Maps from ~7.15 to ~7.20
 
 ### Semantic Bundle 3.2.0 (2020-09-13)
 
