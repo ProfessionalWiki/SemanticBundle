@@ -37,7 +37,7 @@ Semantic Bundle is installed using [Composer](https://getcomposer.org) with
 
 Change to the base directory of your MediaWiki installation and execute these two commands:
 
-    COMPOSER=composer.local.json composer require --no-update mediawiki/semantic-bundle:~3.0
+    COMPOSER=composer.local.json composer require --no-update mediawiki/semantic-bundle:~4.0
 
     composer update mediawiki/semantic-bundle --no-dev -o
   
