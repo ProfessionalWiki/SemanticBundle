@@ -49,7 +49,7 @@
 		"mediawiki/semantic-result-formats": "~3.0",
 		"mediawiki/maps": "^7.20.1",
 		"professional-wiki/modern-timeline": "~1.0",
-		"mediawiki/mermaid": "^2.1.1",
+		"mediawiki/mermaid": "^3.0.1",
 
 		"mediawiki/semantic-extra-special-properties": "~2.0",
 		"mediawiki/semantic-compound-queries": "~2.1",
