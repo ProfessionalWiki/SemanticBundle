@@ -93,6 +93,10 @@ file contains the latest version of Semantic Bundle.
 
 ## Version history
 
+### Semantic Bundle 5.0.0 (2021-08-05)
+
+* Upgraded Page Forms from ~4.6 to ~5.0
+
 ### Semantic Bundle 4.0.0 (2020-11-02)
 
 * Removed Semantic Glossary
