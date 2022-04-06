@@ -12,12 +12,6 @@ wfLoadExtensions( [
 	'SemanticExtraSpecialProperties',
 	'SemanticCompoundQueries',
 
-	// Domain specific
-	'SemanticCite',
-	'SemanticMetaTags',
-	'SemanticBreadcrumbLinks',
-	'SemanticInterlanguageLinks',
-
 	// UI / UX
 	'PageForms',
 ] );
@@ -26,7 +20,7 @@ $GLOBALS['wgExtensionCredits']['semantic'][] = [
 	'path' => __FILE__,
 	'namemsg' => 'semantic-bundle-name',
 	'name' => 'AA Semantic Bundle',
-	'version' => '5.0.0',
+	'version' => '6.0.0',
 	'author' => [
 		'[https://www.EntropyWins.wtf/mediawiki Jeroen De Dauw]',
 		'[https://Professional.Wiki/ Professional.Wiki]'
