@@ -117,7 +117,7 @@ file contains the latest version of Semantic Bundle.
 
 ## Version history
 
-### Semantic Bundle 6.0.0 (2022-04-06)
+### Semantic Bundle 6.0.0 (2022-04-08)
 
 * Raised minimum PHP version from 7.1 to 7.4 and added support for PHP 8.0
 * Raised minimum MediaWiki version from 1.31 to 1.35 and added support for MediaWiki 1.36 up to 1.38
