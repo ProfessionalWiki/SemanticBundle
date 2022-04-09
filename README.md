@@ -70,8 +70,10 @@ Change to the base directory of your MediaWiki installation and execute these tw
 Add the following two lines to the end of your
 ["LocalSettings.php" file](https://www.mediawiki.org/wiki/Manual:LocalSettings.php):
 
-    enableSemantics( 'example.org' );
-    require_once __DIR__ . '/extensions/SemanticBundle/SemanticBundle.php';
+```php
+require_once __DIR__ . '/extensions/SemanticBundle/SemanticBundle.php';
+enableSemantics( 'example.org' );
+```
 
 Update the `enableSemantics` line with your domain name.
 For more information see the
