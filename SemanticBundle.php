@@ -1,6 +1,7 @@
 <?php
 
 wfLoadExtensions( [
+	'SemanticMediaWiki',
 
 	// Result formats
 	'SemanticResultFormats',
