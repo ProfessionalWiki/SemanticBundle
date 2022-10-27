@@ -47,7 +47,7 @@
 		"mediawiki/semantic-media-wiki": "^4.0.1",
 
 		"mediawiki/semantic-result-formats": "^4.0.1",
-		"mediawiki/maps": "^9.0.7",
+		"mediawiki/maps": "^10.0.0",
 		"professional-wiki/modern-timeline": "^1.2.0",
 		"mediawiki/mermaid": "^3.1.0",
 
