@@ -55,5 +55,10 @@
 		"mediawiki/semantic-compound-queries": "^2.2.0",
 
 		"mediawiki/page-forms": "^5.0.0"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
 	}
 }
