@@ -41,7 +41,7 @@ Only in Semantic Bundle 5.0 and earlier:
 		<td><strong>6.1.0</strong></td>
 		<td>7.4 - 8.2</td>
 		<td>1.35 - 1.41</td>
-		<td>~4.1.0</td>
+		<td>~4.2.0</td>
 	</tr>
     <tr>
 		<td><strong>6.0.0</strong></td>
