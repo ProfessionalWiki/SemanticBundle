@@ -1,8 +1,7 @@
 # Semantic Bundle
 
-[![Build Status](https://travis-ci.org/ProfessionalWiki/SemanticBundle.svg?branch=master)](https://travis-ci.org/ProfessionalWiki/SemanticBundle)
-[![Latest Stable Version](https://poser.pugx.org/mediawiki/semantic-bundle/version.png)](https://packagist.org/packages/mediawiki/semantic-bundle)
-[![Download count](https://poser.pugx.org/mediawiki/semantic-bundle/d/total.png)](https://packagist.org/packages/mediawiki/semantic-bundle)
+![Latest Stable Version](https://img.shields.io/packagist/v/mediawiki/semantic-bundle.svg)
+![Total Download Count](https://img.shields.io/packagist/dt/mediawiki/semantic-bundle.svg)
 
 Bundle extension that installs and loads Semantic MediaWiki and associated extensions.
 
@@ -39,6 +38,12 @@ Only in Semantic Bundle 5.0 and earlier:
 		<th>Bundled SMW</th>
 	</tr>
     <tr>
+		<td><strong>6.1.0</strong></td>
+		<td>7.4 - 8.2</td>
+		<td>1.35 - 1.41</td>
+		<td>~4.2.0</td>
+	</tr>
+    <tr>
 		<td><strong>6.0.0</strong></td>
 		<td>7.4 - 8.1</td>
 		<td>1.35 - 1.38</td>
@@ -61,7 +66,7 @@ Semantic Bundle is installed using [Composer](https://getcomposer.org) with
 
 Change to the base directory of your MediaWiki installation and execute these two commands:
 
-    COMPOSER=composer.local.json composer require --no-update mediawiki/semantic-bundle:~6.0
+    COMPOSER=composer.local.json composer require --no-update mediawiki/semantic-bundle:~6.1
 
     composer update mediawiki/semantic-bundle --no-dev -o
   
@@ -118,6 +123,16 @@ To get the latest set of extensions included by Semantic Bundle, make sure your 
 file contains the latest version of Semantic Bundle.
 
 ## Version history
+
+### Semantic Bundle 6.1.0 (2024-07-25)
+
+* Added support for PHP 8.2
+* Added support for MediaWiki 1.39 up to 1.41
+* Upgraded Semantic MediaWiki from ^4.0.1 to ^4.2.0
+* Upgraded Semantic Result Formats from ^4.0.1 to ^4.2.0
+* Upgraded Semantic Extra Special Properties from ^3.0.1 to ^3.0.5
+* Upgraded Maps from ^9.0.7 to ^10.2.0
+* Upgraded Page Forms ^5.0.0 to 5.6.3
 
 ### Semantic Bundle 6.0.1 (2022-04-09)
 
