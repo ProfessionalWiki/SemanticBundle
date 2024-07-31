@@ -8,7 +8,7 @@ Bundle extension that installs and loads Semantic MediaWiki and associated exten
 This bundle is for everyone who wants to get the full Semantic MediaWiki experience without
 individually install all extensions or figure out what those extensions are in the first place.
 
-Semantic Bundle is maintained by [Professional Wiki]. Contact us for [MediaWiki development], [managed wiki hosting], or [MediaWiki support], including [Semantic MediaWiki support]}.
+Semantic Bundle is maintained by [Professional Wiki]. Contact us for [MediaWiki development], [managed wiki hosting], or [MediaWiki support], including [Semantic MediaWiki support].
 
 ## Bundled extensions
 
@@ -198,4 +198,4 @@ file contains the latest version of the Semantic Bundle.
 [MediaWiki development]: https://professional.wiki/en/mediawiki-development
 [managed wiki hosting]: https://professional.wiki/en/hosting
 [MediaWiki support]: https://professional.wiki/en/professional-mediawiki-support
-[Semantic MediaWiki support] https://professional.wiki/en/semantic-mediawiki-services
+[Semantic MediaWiki support]: https://professional.wiki/en/semantic-mediawiki-services
