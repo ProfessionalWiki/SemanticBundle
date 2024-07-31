@@ -5,10 +5,10 @@
 
 Bundle extension that installs and loads Semantic MediaWiki and associated extensions.
 
-This bundle is for everyone that wants to get the full Semantic MediaWiki experience without
-individually installing all extensions or figuring out what those extensions are in the first place.
+This bundle is for everyone who wants to get the full Semantic MediaWiki experience without
+individually install all extensions or figure out what those extensions are in the first place.
 
-Semantic Bundle is maintained by [Professional.Wiki]. Contact us for [MediaWiki development], [managed wiki hosting] or [MediaWiki support].
+Semantic Bundle is maintained by [Professional Wiki]. Contact us for [MediaWiki development], [managed wiki hosting], or [MediaWiki support], including [Semantic MediaWiki support]}.
 
 ## Bundled extensions
 
@@ -16,10 +16,10 @@ Semantic Bundle is maintained by [Professional.Wiki]. Contact us for [MediaWiki 
 * **[Semantic Compound Queries](https://www.mediawiki.org/wiki/Extension:Semantic_Compound_Queries)** – Provides a parser function that displays multiple semantic queries at the same time
 * **[Semantic Extra Special Properties](https://www.mediawiki.org/wiki/Extension:Semantic_Extra_Special_Properties)** – Adds extra special properties to all pages
 * **[Semantic Result Formats](https://www.mediawiki.org/wiki/Extension:Semantic_Result_Formats)** – Provides additional formats for semantic queries
-* **[Maps](https://www.mediawiki.org/wiki/Extension:Maps)** – Allows embedding of dynamic maps, geocoding and geospatial operations
+* **[Maps](https://www.mediawiki.org/wiki/Extension:Maps)** – Allows embedding of dynamic maps, geocoding, and geospatial operations
 * **[Mermaid](https://www.mediawiki.org/wiki/Extension:Mermaid)** – Provides a parser function to generate diagrams and flowcharts with the help of the mermaid script language
 * **[Modern Timeline](https://www.mediawiki.org/wiki/Extension:Modern_Timeline)** – Provides a modern timeline visualization for Semantic MediaWiki as a result format
-* **[Page Forms](https://www.mediawiki.org/wiki/Extension:Page_Forms)** – Allows editing pages via user defined forms
+* **[Page Forms](https://www.mediawiki.org/wiki/Extension:Page_Forms)** – Allows editing pages via user-defined forms
 
 Only in Semantic Bundle 5.0 and earlier:
 
@@ -65,11 +65,12 @@ Semantic Bundle is installed using [Composer](https://getcomposer.org) with
 ### Step 1/3: composer update
 
 Change to the base directory of your MediaWiki installation and execute these two commands:
-
-    COMPOSER=composer.local.json composer require --no-update mediawiki/semantic-bundle:~6.1
-
-    composer update mediawiki/semantic-bundle --no-dev -o
-  
+```
+COMPOSER=composer.local.json composer require --no-update mediawiki/semantic-bundle:~6.1
+```
+```
+composer update mediawiki/semantic-bundle --no-dev -o
+```  
 ### Step 2/3: modify LocalSettings.php
 
 Add the following two lines to the end of your
@@ -81,7 +82,7 @@ enableSemantics( 'example.org' );
 ```
 
 Update the `enableSemantics` line with your domain name.
-For more information see the
+For more information, see the
 [enableSemantics documentation](https://www.semantic-mediawiki.org/wiki/Help:EnableSemantics).
 
 ### Step 3/3: run update.php
@@ -93,34 +94,34 @@ from the base directory of your MediaWiki installation:
 
 ### Verify everything went alright
 
-Check the "Special:Version" page on your wiki. If it lists Semantic MediaWiki, installation was successful. 
+Check the "Special:Version" page on your wiki. If it lists Semantic MediaWiki, the installation was successful. 
 
 Finally, please consider [sponsoring the project].
 
 ## How this works
 
-This section is to provide extra background to people familiar with the MediaWiki
-extension registration mechanism. Understanding it is not required for using Semantic Bundle.
+This section provides extra background to people familiar with the MediaWiki
+extension registration mechanism. Understanding that it is not required to use Semantic Bundle.
 
-Semantic Bundle pulls in all relevant Semantic MediaWiki extensions via Composer by defining
-them as dependency in its `require` section. By including `SemanticBundle.php` you enable these
-extensions, since `SemanticBundle.php` calls `wfLoadExtensions` just like you would do if you
+Semantic Bundle pulls all relevant Semantic MediaWiki extensions via Composer by defining
+them as dependencies in its `require` section. By including `SemanticBundle.php`, you enable these
+extensions since `SemanticBundle.php` calls `wfLoadExtensions`, just like you would have if you
 had installed them individually.
 
-If you want to only load some of the extensions, you can call `wfLoadExtensions` yourself instead
+If you want only to load some of the extensions, you can call `wfLoadExtensions` yourself instead
 of including `SemanticBundle.php`.
 
 ## Update/version policy
 
-Like this included extensions, Semantic Bundle itself follows [semantic versioning](https://semver.org/).
+Like these included extensions, Semantic Bundle follows [semantic versioning](https://semver.org/).
 This means that we avoid breaking changes in all but our major versions.
 
 In other words, if you install version `~42.0` of Semantic Bundle, you can run `composer update` at any
 later time without worrying a breaking change will be included. No extensions will be removed, no extensions
-will be added and no extensions will be upgraded to a new version that itself has breaking changes.
+will be added, and no extensions will be upgraded to a new version with breaking changes.
 
 To get the latest set of extensions included by Semantic Bundle, make sure your "composer.local.json"
-file contains the latest version of Semantic Bundle.
+file contains the latest version of the Semantic Bundle.
 
 ## Version history
 
@@ -170,7 +171,7 @@ file contains the latest version of Semantic Bundle.
 
 ### Semantic Bundle 3.1.1 (2020-03-15)
 
-* Fixed compatibility with MediaWiki 1.31 (by preventing installation of Mermaid newer than 2.0.x)
+* Fixed compatibility with MediaWiki 1.31 (by preventing the installation of Mermaid newer than 2.0.x)
 
 ### Semantic Bundle 3.1.0 (2020-01-26)
 
@@ -192,8 +193,9 @@ file contains the latest version of Semantic Bundle.
 
 * Initial release for MediaWiki 1.31.x and Semantic MediaWiki 3.0.x
 
-[Professional.Wiki]: https://professional.wiki
+[Professional Wiki]: https://professional.wiki/
 [sponsoring the project]: https://github.com/sponsors/JeroenDeDauw
 [MediaWiki development]: https://professional.wiki/en/mediawiki-development
 [managed wiki hosting]: https://professional.wiki/en/hosting
-[MediaWiki support]: https://professional.wiki/en/support
+[MediaWiki support]: https://professional.wiki/en/professional-mediawiki-support
+[Semantic MediaWiki support] https://professional.wiki/en/semantic-mediawiki-services
