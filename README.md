@@ -1,7 +1,8 @@
 # Semantic Bundle
 
-![Latest Stable Version](https://img.shields.io/packagist/v/mediawiki/semantic-bundle.svg)
-![Total Download Count](https://img.shields.io/packagist/dt/mediawiki/semantic-bundle.svg)
+[![Latest Stable Version](https://poser.pugx.org/mediawiki/semantic-bundle/v/stable)](https://packagist.org/packages/mediawiki/semantic-bundlef)
+[![Download count](https://poser.pugx.org/mediawiki/semantic-bundle/downloads)](https://packagist.org/packages/mediawiki/semantic-bundle)
+[![License](https://poser.pugx.org/mediawiki/semantic-bundle/license)](COPYING)
 
 Bundle extension that installs and loads Semantic MediaWiki and associated extensions.
 
