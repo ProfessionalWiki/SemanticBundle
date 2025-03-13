@@ -51,7 +51,7 @@
 		"professional-wiki/modern-timeline": "^1.2.0",
 		"mediawiki/mermaid": "^3.1.0",
 
-		"mediawiki/semantic-extra-special-properties": "^3.0.5",
+		"mediawiki/semantic-extra-special-properties": "^4.0.0",
 		"mediawiki/semantic-compound-queries": "^2.2.0",
 
 		"mediawiki/page-forms": "5.6.3"
